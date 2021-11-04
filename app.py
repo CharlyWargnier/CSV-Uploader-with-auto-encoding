@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import chardet
 
-st.title("💡 CSV Uploader with auto-encoding")
+st.header("💡 CSV uploader with auto-encoding detection")
 
 uploaded_file = st.file_uploader("Choose a CSV file")
 
